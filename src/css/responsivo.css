@@ -1,0 +1,144 @@
+@media (max-width: 1150px) {
+    body {
+        background-size: cover;
+    }
+}
+
+@media (max-width: 1005px) {
+    body {
+        min-height: 100vh;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .conteudo img {
+        max-width: 550px;
+    }
+
+    .conteudo .informacoes h1 {
+        font-size: 25px;
+    }
+
+    .conteudo .informacoes p {
+        font-size: 13px;
+    }
+
+    .conteudo .informacoes .btn {
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+    }
+    
+}
+
+@media (max-width: 860px) {
+    .conteudo img {
+        max-width: 450px;
+    }
+
+    .conteudo .informacoes h1 {
+        font-size: 20px;
+    }
+
+    .conteudo .informacoes p {
+        font-size: 11px;
+    }
+
+    .conteudo .informacoes .btn {
+        width: 90px;
+        height: 25px;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 740px) {
+    body {
+        background: hsl(257, 40%, 49%) url('../images/bg-mobile.svg') no-repeat top center fixed;
+        background-size: contain;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .conteudo {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .conteudo img {
+        width: 450px;
+    }
+
+    .conteudo .informacoes {
+        width: 300px;
+    }
+
+    .conteudo .informacoes h1 {
+        margin-bottom: 15px;
+        font-size: 2.8rem;
+    }
+
+    .conteudo .informacoes p {
+        font-size: 1.8rem;
+    }
+
+    .conteudo .informacoes .btn {
+        width: 120px;
+        height: 35px;
+        font-size: 15px;
+        margin-bottom: 50px;
+    }
+
+    .rodape {
+       justify-content: center; 
+    }
+}
+
+@media (max-width: 490px) {
+    .conteudo img {
+        width: 350px;
+    }
+
+    .cabecalho img {
+        width: 150px;
+    }
+}
+
+@media (max-width: 400px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .conteudo img {
+        width: 300px;
+    }
+
+    .cabecalho img {
+        width: 130px;
+    }
+
+    .conteudo .informacoes {
+        width: 280px;
+    }
+
+    .conteudo .informacoes h1 {
+        margin-bottom: 15px;
+        font-size: 2.3rem;
+    }
+
+    .conteudo .informacoes p {
+        font-size: 1.6rem;
+    }
+}

@@ -1,0 +1,91 @@
+html {
+    font-size: 62.5%;
+    color: #fff;
+    height: 100%;
+}
+
+body {
+    font-family: open sans;
+    background: hsl(257, 40%, 49%) url('../images/bg-desktop.svg') no-repeat;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+    padding: 25px;
+}
+
+.cabecalho {
+    align-self: flex-start;
+    margin-bottom: 50px;
+}
+
+.cabecalho img {
+    width: 180px;
+}
+
+.conteudo {
+    display: flex;
+    gap: 55px;
+}
+
+.conteudo .informacoes {
+    max-width: 450px;
+    margin-top: 40px;
+}
+
+.conteudo .informacoes h1 {
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.conteudo .informacoes p {
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.conteudo .informacoes .btn {
+    text-decoration: none;
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    color: hsl(257, 40%, 49%);
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+}
+
+.conteudo .informacoes .btn:hover {
+    background-color: hsl(300, 69%, 71%);
+    cursor: pointer;
+    color: #fff;
+}
+
+.rodape {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.rodape a{
+    font-size: 20px;
+    color: #fff;
+}
+
+.rodape a i {
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.rodape a i:hover {
+    color: hsl(300, 71%, 57%);
+    border: 1px solid hsl(300, 71%, 57%);
+    cursor: pointer;
+}
+
