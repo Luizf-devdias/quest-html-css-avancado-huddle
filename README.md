@@ -14,8 +14,7 @@ Criei uma landing page inspirada no layout do Huddle, aplicando técnicas como:
 
 ## 🌐 Demonstração
 
-🔗 *[Insira aqui o link para a página publicada]*  
-*(Ex: GitHub Pages, Vercel, Netlify...)*
+🔗 https://luizf-devdias.github.io/quest-html-css-avancado-huddle/
 
 ---
 
